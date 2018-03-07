@@ -22,6 +22,9 @@ TheShapes(double inLength, double inWidth, double inHeight) {
     width = inWidth;
 }
 
+double sphereVolume() {
+    return (4/3.0) * thePI * Math.pow(radius, 3);
+}
 //this method was static, i removed the static part of it
 double coneVolume() {
     return thePI * (radius * radius) * (height / 3.0);
@@ -29,9 +32,6 @@ double coneVolume() {
 //this method was static, i removed the static part of it
     double cylinderVolume() {
         return thePI * (radius * radius) * height;
-    }
-    double sphereVolume() {
-       return (4/3.0) * thePI * Math.pow(radius, 3);
     }
     double pyramidVolume() {
       return  (length * width * height)/ 3.0;
