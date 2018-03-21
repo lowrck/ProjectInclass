@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+
+/*
+  Computer Science II
+  Assignment 6
+  made by lewis marx
+  DOLM: Right Now
+  OS Used: Windows 10
+  IDE Used: intellij iDEA
+ */
+
 public class ShapesControllingClass2 {
 
     public static void main(String[] args) {
@@ -79,19 +89,19 @@ public class ShapesControllingClass2 {
         for(int j = 0; j < i; j++) {
             switch(switchValues[j]) {
                 case 1: {
-                System.out.printf("Sphere with a radius of %.4f has a volume of %.4f\n", shapes[j].radius, shapes[j].sphereVolume());
+                System.out.printf("Sphere with a radius of %.4f has a volume of %.4f cubic feet\n", shapes[j].radius, shapes[j].sphereVolume());
                 break;
                 }
                 case 2: {
-                System.out.printf("Cone with a radius of %.4f with a height of %.4f has a volume of %.4f\n", shapes[j].radius, shapes[j].height , shapes[j].coneVolume());
+                System.out.printf("Cone with a radius of %.4f with a height of %.4f has a volume of %.4f cubic feet\n", shapes[j].radius, shapes[j].height , shapes[j].coneVolume());
                 break;
                 }
                 case 3: {
-                    System.out.printf("Cylinder with a radius of %.4f with a height of %.4f has a volume of %.4f\n", shapes[j].radius, shapes[j].height , shapes[j].cylinderVolume());
+                    System.out.printf("Cylinder with a radius of %.4f with a height of %.4f has a volume of %.4f cubic feet\n", shapes[j].radius, shapes[j].height , shapes[j].cylinderVolume());
                     break;
                 }
                 case 4: {
-                    System.out.printf("Pyramid with a length of %.4f and a width of %.4f and a height of %.4f has a volume of %.4f\n", shapes[j].length , shapes[j].width , shapes[j].height , shapes[j].pyramidVolume());
+                    System.out.printf("Pyramid with a length of %.4f and a width of %.4f and a height of %.4f has a volume of %.4f cubic feet\n", shapes[j].length , shapes[j].width , shapes[j].height , shapes[j].pyramidVolume());
                     break;
                 }
                 case 5: {
