@@ -4,6 +4,15 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/*
+  Computer Science II
+  Assignment 7
+  made by lewis marx
+  DOLM: Right Now
+  OS Used: Mac OSX
+  IDE Used: intellij iDEA
+ */
+
 public class FileExtractor {
 
     public static void main(String[] args) {
@@ -86,15 +95,15 @@ public class FileExtractor {
             wordcount3++;
 
 
-            //System.out.println(scanner3.hasNext());
+            cout.println("Statistics for the first chapter of James:\n" );
             cout.println(Names1 + ": ");
             cout.println("Word Count: " + wordcount1 + "\nCharacter count: " + charactercount1 + "\nSentence Count: " + sentencecount1);
-            cout.println(endl + endl + endl);
+            cout.println(endl + endl);
             cout.println(Names2 + ": ");
             cout.println("Word Count: " + wordcount2 + "\nCharacter count: " + charactercount2 + "\nSentence Count: " + sentencecount2);
-            cout.println(endl + endl + endl);
+            cout.println(endl + endl);
             cout.println(Names3 + ": ");
-            cout.println("Word Count: " + wordcount3 + "\nCharacter count: " + charactercount3 + "\nSentence Count: " + sentencecount3);
+            cout.print("Word Count: " + wordcount3 + "\nCharacter count: " + charactercount3 + "\nSentence Count: " + sentencecount3);
             cout.close();
             System.out.println("Process has ended successfully, please check compareInfo.txt for output");
         }
